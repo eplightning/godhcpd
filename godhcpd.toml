@@ -1,0 +1,7 @@
+[pools]
+    [pools.default]
+    interfaces = [ "vboxnet0" ]
+    network = "192.168.99.0/24"
+    start = 2
+    end = 99
+    algorithm = "random"
